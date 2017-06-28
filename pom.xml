@@ -6,6 +6,7 @@
     <groupId>org.springframework</groupId>
     <artifactId>pcc-ssc-demo</artifactId>
     <version>0.1.0</version>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -33,15 +34,5 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
