@@ -44,7 +44,7 @@ public class GreetingController {
 
     }
 
-    @RequestMapping(value = "/kill")
+    @RequestMapping(value = "/cyclecontainer")
     public void kill() {
         logger.info("Forcing application exit");
         System.exit(1);
